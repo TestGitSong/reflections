@@ -1,0 +1,10 @@
+git init
+git add
+git status
+staging area
+working directory
+
+
+add works on staging area
+status compares staging with working
+init creates a new repository

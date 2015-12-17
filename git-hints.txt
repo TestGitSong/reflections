@@ -1,0 +1,15 @@
+Useful Git Commands References
+
+Creation of a repository
+git init
+git clone url 
+
+Status 
+git log
+git status
+
+Analysis
+git diff commit-id-1 commit-id-2
+
+Changes
+git add
