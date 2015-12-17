@@ -1,0 +1,48 @@
+Saving manual copies
+Easily able to compare two documents with each other
+Spot the differences
+ability to go back to original version
+Having version history allows you to go back to a point in time
+or back to one of many previous versions
+you can compare not just the current version against the past but
+any version against any version
+
+Features
+Any Editor
+Save files locally
+Use offline
+Syntax Highlighting
+Manual Saving rather than automatically
+At time of build
+
+Commit Messages
+Key for good build
+Key features on each commit 
+role back features or defects.
+
+
+Collection of files - Repository
+git log
+...
+commit b0678b161fcf74467ed3a63110557e3d6229cfa6
+Author: cbuckey <caroline@udacity.com>
+Date:   Mon May 24 04:15:21 2010 -0700
+
+    Revert controls
+
+commit f19cb1b80fe27e938e4d72770ca0a42f25e99ecc
+Author: cbuckey <caroline@udacity.com>
+Date:   Mon May 24 04:03:05 2010 -0700
+
+    Fix typo in space
+...
+
+git diff --u b0678b161fcf74467ed3a63110557e3d6229cfa6 f19cb1b80fe27e938e4d72770ca0a42f25e99ecc
+
+
+
+
+git init
+git log
+git status
+
