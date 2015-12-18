@@ -42,8 +42,8 @@ If things go wrong, to revert
 git merge --abort
 
 
-git config --global user.name "Matthew North"
-git config --global user.email "matthew.north@csc.com"
+git config --global user.name "My Name"
+git config --global user.email "my@email.com"
 fix username and email of commitor
 
 git commit --amend --reset-author
