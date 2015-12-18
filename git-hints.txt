@@ -15,3 +15,10 @@ git diff					compare working and stage
 
 Changes
 git add
+
+
+Remote Repositories
+git remote
+git remote -v
+
+git push origin master

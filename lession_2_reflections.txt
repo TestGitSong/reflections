@@ -4,14 +4,13 @@ git status
 staging area
 working directory
 
-
 add works on staging area
 status compares staging with working
 init creates a new repository
 
 Staging
-Add files that you have changed to staging only when you are ready package them into 
-a release package
+Add files that you have changed to staging only when you are ready 
+package them into a release package
 Different from Working area
 
 
@@ -55,8 +54,7 @@ $ git merge master coins
 Already up-to-date.
 
 Conflict Detection
-
-				ship on coins	master	new master
+		ship on coins	master	new master
 ... revert 				color
 							easy mode	
 
