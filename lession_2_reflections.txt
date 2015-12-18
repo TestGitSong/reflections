@@ -8,3 +8,64 @@ working directory
 add works on staging area
 status compares staging with working
 init creates a new repository
+
+Staging
+Add files that you have changed to staging only when you are ready package them into 
+a release package
+Different from Working area
+
+
+Branching
+git branch		- list the branches and * shows the current branch
+git branch name	- creates a new branch from where you are at
+git checkout name	- attach to that new branch
+
+git log --graph --oneline master coin
+
+Branches and reachability
+can a parent commit be reached through other parents
+
+git checkout -b branch_name
+is equivalent to 
+git branch name	- creates a new branch from where you are at
+git checkout name	- attach to that new branch
+
+Diagrams show the structure of the branch tree and 
+highlight leaf nodes that are inaccessible.
+
+Merging
+git merge will alway merge the branches 
+listed into the currently connected branch
+
+git merge master coins
+
+If things go wrong, to revert
+git merge --abort
+
+
+git config --global user.name "Matthew North"
+git config --global user.email "matthew.north@csc.com"
+fix username and email of commitor
+
+git commit --amend --reset-author
+correct the user of the last committer
+
+
+$ git merge master coins
+Already up-to-date.
+
+Conflict Detection
+
+				ship on coins	master	new master
+... revert 				color
+							easy mode	
+
+							
+branching and merging to concept map
+
+Automatic merging vs manual merging
+automatic good but can make mistakes in areas that are not local
+manual good but prone to human error
+
+							
+							

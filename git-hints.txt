@@ -9,7 +9,9 @@ git log
 git status
 
 Analysis
-git diff commit-id-1 commit-id-2
+git diff commit-id-1 commit-id-2	compare between commits
+git diff --staged			compare staging to last commit
+git diff					compare working and stage
 
 Changes
 git add
